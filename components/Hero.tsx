@@ -22,7 +22,7 @@ const Hero = () => {
           One day, he was told his job was no longer needed. Losing his job was just the beginning of his troubles. He tried to get a new job but he found that his skills were outdated, replaced by the very technology he thought would make him more productive. 
         </p>
         <p className="text-lg opacity-80 leading-relaxed text-center">
-          He faced rejection after rejection, as the secure career he was promised seemed to no longer exist. Money problems followed, resulting in the loss of his home, fights with his family, and eventually a divorce.            Here's the harsh reality: as AI progresses, even the most skilled professionals will be replaced and forgotten. 
+          He faced rejection after rejection, as the secure career he was promised seemed to no longer exist. Money problems followed, resulting in the loss of his home, fights with his family, and eventually a divorce.            Here&apos;s the harsh reality: as AI progresses, even the most skilled professionals will be replaced and forgotten. 
         </p>
       </div>
     </section>
