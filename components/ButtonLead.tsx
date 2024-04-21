@@ -54,7 +54,7 @@ const ButtonLead = ({ extraStyle }: { extraStyle?: string }) => {
         type="submit"
         disabled={isDisabled}
       >
-        Join waitlist
+        Yes, I want to protect my career from AI
         {isLoading ? (
           <span className="loading loading-spinner loading-xs"></span>
         ) : (
