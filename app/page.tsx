@@ -19,16 +19,19 @@ export default function Home() {
       <main>
         <Hero />
         <Problem />
-        <FeaturesAccordion />
-        <div style={{ padding: '48px', width: '100%', 'justifyItems': 'center' }}>
-        <h2 className="mx-auto font-extrabold text-3xl md:text-5xl tracking-tight mb-6 md:mb-8">
-          Enter your email to learn how to replace AI before it replaces you
-        </h2>
+        <div style={{ padding: '48px', width: '100%', 'justifyItems': 'center', paddingLeft: '100px', paddingRight: '100px' }}>
+          <h2 className="mx-auto font-extrabold text-3xl md:text-5xl tracking-tight mb-6 md:mb-8">
+            Enter your email to learn how to replace AI before it replaces you
+          </h2>
           <ButtonLead/>
           <TestimonialsAvatars priority={true} />
         </div>
+        <FeaturesAccordion />
         <FAQ />
-        <CTA />
+        <div style={{ padding: '48px', width: '100%', 'justifyItems': 'center', paddingLeft: '100px', paddingRight: '100px' }}>
+          <ButtonLead/>
+          <TestimonialsAvatars priority={true} />
+        </div>
       </main>
       <Footer />
     </>
