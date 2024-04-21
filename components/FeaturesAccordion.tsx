@@ -23,9 +23,9 @@ interface Feature {
 // - alt: The alt text of the image (if type is 'image')
 const features = [
   {
-    title: "Emails",
+    title: "The AI Opportunity Model",
     description:
-      "Send transactional emails, setup your DNS to avoid spam folder (DKIM, DMARC, SPF in subdomain), and listen to webhook to receive & forward emails",
+      "A structured three-step approach that will teach you how to quickly ship your own money making apps online, ensuring you remain indispensable in your field.",
     type: "video",
     path: "https://d3m8mk7e1mf7xn.cloudfront.net/app/newsletter.webm",
     format: "video/webm",
@@ -46,9 +46,9 @@ const features = [
     ),
   },
   {
-    title: "Payments",
+    title: "More Flexibly and Maintain High Earnings",
     description:
-      "Create checkout sessions, handle webhooks to update user's account (subscriptions, one-time payments...) and tips to setup your account & reduce chargebacks",
+      "Hundreds of developers like you have continued to earn top-tier pay just by focusing on providing value in ways that code generating AI can't.",
     type: "image",
     path: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
     alt: "A computer",
@@ -70,9 +70,9 @@ const features = [
     ),
   },
   {
-    title: "Authentication",
+    title: "Develop AI Skills Without Starting Over",
     description:
-      "Magic links setup, login with Google walkthrough, save user in MongoDB/Supabase, private/protected pages & API calls",
+      "Utilize your existing coding expertise and just apply them to your own software projects inside or outside your company, guided learning paths.",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -91,9 +91,9 @@ const features = [
     ),
   },
   {
-    title: "Style",
+    title: "Endless Career Opportunities",
     description:
-      "Components, animations & sections (like this features section), 20+ themes with daisyUI, automatic dark mode",
+      "How to tap into a continuous stream of job openings and project work that requires advanced knowledge, ensuring you stay relevant and in demand.",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -216,13 +216,13 @@ const FeaturesAccordion = () => {
     >
       <div className="px-8">
         <h2 className="font-extrabold text-4xl lg:text-6xl tracking-tight mb-12 md:mb-24">
-          All you need to ship your startup fast
+          Launch your own super profitable apps
           <span className="bg-neutral text-neutral-content px-2 md:px-4 ml-1 md:ml-1.5 leading-relaxed whitespace-nowrap">
-            and get profitable
+            without learning a new tech stack
           </span>
         </h2>
         <div className=" flex flex-col md:flex-row gap-12 md:gap-24">
-          <div className="grid grid-cols-1 items-stretch gap-8 sm:gap-12 lg:grid-cols-2 lg:gap-20">
+          <div className="grid grid-cols-1 items-stretch gap-8 sm:gap-12  lg:gap-20">
             <ul className="w-full">
               {features.map((feature, i) => (
                 <Item
@@ -234,8 +234,6 @@ const FeaturesAccordion = () => {
                 />
               ))}
             </ul>
-
-            <Media feature={features[featureSelected]} key={featureSelected} />
           </div>
         </div>
       </div>

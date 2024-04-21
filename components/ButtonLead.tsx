@@ -35,7 +35,7 @@ const ButtonLead = ({ extraStyle }: { extraStyle?: string }) => {
   };
   return (
     <form
-      className={`w-full max-w-xs space-y-3 ${extraStyle ? extraStyle : ""}`}
+      className={`flex flex-col justify-center items-center md:items-start gap-1 ${extraStyle ? extraStyle : ""}`}
       onSubmit={handleSubmit}
     >
       <input
@@ -50,7 +50,7 @@ const ButtonLead = ({ extraStyle }: { extraStyle?: string }) => {
       />
 
       <button
-        className="btn btn-primary btn-block"
+        className="btn btn-primary btn-block text-2xl"
         type="submit"
         disabled={isDisabled}
       >

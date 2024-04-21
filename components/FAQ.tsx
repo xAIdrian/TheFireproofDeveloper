@@ -14,21 +14,20 @@ interface FAQItemProps {
 const faqList: FAQItemProps[] = [
   {
     question: "What do I get exactly?",
-    answer: <div className="space-y-2 leading-relaxed">Loreum Ipseum</div>,
+    answer: <div className="space-y-2 leading-relaxed">You will get step-by-step documentation that will explain how you can apply your current engineering experience to launch products that is uniquely human.  You can quickly build and app with a single feature and sell it to replace your income or show it to your boss and get a promotion.</div>,
   },
   {
-    question: "Can I get a refund?",
+    question: "What does it cost?",
     answer: (
       <p>
-        Yes! You can request a refund within 7 days of your purchase. Reach out
-        by email.
+        Nothing! We are offering this for free. We want to learn as much as we can from you and help you get started on your journey to replace AI before it replaces you.
       </p>
     ),
   },
   {
-    question: "I have another question",
+    question: "How soon will I see results?",
     answer: (
-      <div className="space-y-2 leading-relaxed">Cool, contact us by email</div>
+      <div className="space-y-2 leading-relaxed">Immediately.  We will start to show you how you are far more valuable outside of an organization that has no intentions to keep you around when they can replace you with AI.  You will learn quickly how to be self-sufficient to provide.</div>
     ),
   },
 ];
