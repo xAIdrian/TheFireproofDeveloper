@@ -20,9 +20,9 @@ export default function Home() {
         <Hero />
         <Problem />
         <div style={{ padding: '48px', width: '100%', 'justifyItems': 'center', paddingLeft: '100px', paddingRight: '100px' }}>
-          <h2 className="mx-auto font-extrabold text-3xl md:text-5xl tracking-tight mb-6 md:mb-8">
-            Enter your email to learn how to replace AI before it replaces you
-          </h2>
+          <h4 className="mx-auto font-extrabold text-3xl md:text-5xl tracking-tight mb-6 md:mb-8">
+            Enter your email to get started
+          </h4>
           <ButtonLead/>
           <TestimonialsAvatars priority={true} />
         </div>
