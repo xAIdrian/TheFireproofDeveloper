@@ -1,3 +1,6 @@
+import ButtonLead from "./ButtonLead";
+import TestimonialsAvatars from "./TestimonialsAvatars";
+
 const Arrow = ({ extraStyle }: { extraStyle: string }) => {
   return (
     <svg
@@ -62,6 +65,14 @@ const Problem = () => {
           <Step emoji="😔" text="Replaced by GPT-5" />
         </div>
       </div>
+      <div style={{ padding: '48px', width: '100%', 'justifyItems': 'center', paddingLeft: '100px', paddingRight: '100px' }}>
+          <p className="mx-auto font-extrabold text-3xl md:text-3xl tracking-tight mb-6 md:mb-8">
+            Enter your email to learn how to survive AI
+          </p>
+          <ButtonLead/>
+          <br/>
+          <TestimonialsAvatars priority={true} />
+        </div>
     </section>
   );
 };

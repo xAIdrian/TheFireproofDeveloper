@@ -19,17 +19,14 @@ export default function Home() {
       <main>
         <Hero />
         <Problem />
-        <div style={{ padding: '48px', width: '100%', 'justifyItems': 'center', paddingLeft: '100px', paddingRight: '100px' }}>
-          <h4 className="mx-auto font-extrabold text-3xl md:text-5xl tracking-tight mb-6 md:mb-8">
-            Enter your email to get started
-          </h4>
-          <ButtonLead/>
-          <TestimonialsAvatars priority={true} />
-        </div>
         <FeaturesAccordion />
         <FAQ />
         <div style={{ padding: '48px', width: '100%', 'justifyItems': 'center', paddingLeft: '100px', paddingRight: '100px' }}>
+          <p className="mx-auto font-extrabold text-3xl md:text-3xl tracking-tight mb-6 md:mb-8">
+            Enter your email to learn how to thrive in the age of AI
+          </p>
           <ButtonLead/>
+          <br/>
           <TestimonialsAvatars priority={true} />
         </div>
       </main>

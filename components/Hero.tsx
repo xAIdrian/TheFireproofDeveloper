@@ -10,7 +10,7 @@ const Hero = () => {
         <h2 className="font-bold text-xl text-red-500 text-center">To experienced software engineers worried about AI...</h2>
 
         <h1 className="font-extrabold text-4xl lg:text-6xl tracking-tight md:-mb-4 text-center">
-          3 simple steps to protect your career and secure your future from AI and tech layoffs
+          How 3 simple steps can protect your career and secure your future from AI and tech layoffs
         </h1>
         <p className="text-lg opacity-80 leading-relaxed text-center">
           He was a hard-working engineer at a top tech company, where he worked his way up, earning the respect and admiration of everyone. His career was going great, he had finally bought a home, gotten married, and each promotion meant more opportunities for his growing family. 
