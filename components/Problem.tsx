@@ -50,7 +50,7 @@ const Problem = () => {
           Last year 226,000 developers were fired from big tech companies alone. 
         </h2>
         <p className="max-w-xl mx-auto text-lg opacity-90 leading-relaxed mb-12 md:mb-20">
-          But I’m not here to scare you and tell that we’re all going to die from the AI apocalypse. I’m here to tell you there is a new way to safeguard your position and make more money.
+          But I’m not here to scare you and tell that we’re all going to die from the AI apocalypse. I’m here to tell you there is a new way to guarantee your position so you don&apos;t end up like this guy 👇.
         </p>
 
         <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-6">
